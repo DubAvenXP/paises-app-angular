@@ -8,7 +8,7 @@ import { Country } from 'src/app/pais/interfaces/pais.interface';
 })
 export class PaisTablaComponent {
 
-  @Input('paises') paises: Country[] = [];
+  @Input() paises: Country[] = [];
 
   constructor() { }
 

@@ -30,5 +30,12 @@ export class PorPaisComponent {
 
   }
 
+  sugerencias(event: any) {
+    this.hayError = false;
+    //TODO: crear sugerencias 
+  }
+
+
+
 
 }
